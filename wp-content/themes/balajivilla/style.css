@@ -1,0 +1,129 @@
+ /*
+ Theme Name:   Balaji Villa
+ Description:  A Twenty Twenty child theme 
+ Author:       Pixel Chopper
+ Author URI:   http://pixelchopper.com/
+ Template:     twentytwenty
+*/
+@import url("../twentytwenty/style.css");
+body{font-family: 'Marcellus', serif;}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+#home{
+    position: relative;
+    background-image: url('./assets//images/home-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.589);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.nav-menu-wrapper{
+    position: fixed;
+    left: 72px;
+    top: 35%;
+    z-index: 999;
+}
+.nav-menu{
+    margin: 0;
+    list-style: none;
+}
+.nav-menu li{
+    margin-bottom: 30px;
+}
+.nav-menu li a{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+.center-text{
+    position: relative;
+    width: 781px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 121px;
+}
+.center-text h4{
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.12em;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 146.69%;
+}
+.center-text .logo-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.center-text .logo-img h2{
+    color: #fff;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 41px;
+    letter-spacing: 0.21em;
+}
+.contact-us{
+    margin: 55px 0;
+    color: #fff;
+}
+.contact-us h4{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 146.69%;
+    letter-spacing: 0.12em;
+}
+.contact-us p{
+    font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+letter-spacing: 0.1em;
+text-align: center;
+margin-top: 17px;
+}
+.gallery-btn{
+    width: 168px;
+    height: 36px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.gallery-btn a{
+    font-weight: normal;
+font-size: 14px;
+line-height: 146.69%;
+color: #fff;
+text-decoration: none;
+letter-spacing: 0.12em;
+}
+#nearby{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #FFF8E8;
+}
+.gallery { display: block; margin: 0; width: 100%;}
+#gallery-page{
+    position: relative;
+    width: 100%;
+    background: #fff;
+    height: 100vh;
+    padding: 72px;
+}
